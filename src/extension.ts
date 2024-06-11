@@ -10,8 +10,6 @@ export function activate(context: vscode.ExtensionContext) {
 				const keywords = findBasicKeywords(document, position, token, context);
 				const stateSymbols = findItemsFromCurrentState(document, position, token, context);
 
-				console.log('keywords', stateSymbols);
-
 				return [
 					...keywords,
 					...stateSymbols
