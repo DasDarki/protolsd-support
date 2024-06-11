@@ -3,6 +3,7 @@
   "displayName": "protolsd-support",
   "description": "Adds basic ProtoLSD support to VSCode",
   "version": "0.0.1",
+  "publisher": "ProtoLSDSupport",
   "repository": {
     "type": "git",
     "url": "https://github.com/DasDarki/protolsd-support"
